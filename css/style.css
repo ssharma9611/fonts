@@ -515,4 +515,30 @@ input[type="submit"]{width:217px;height:60px;font-size:20px;}
 .phone h6{font-size:19px;}
 .form{margin-left:5%; width:90%;}
 }
+@media screen and (max-width:767px){
+.container{width:100%;}
+.logo img{height:60%;}
+#header nav ul li{margin:0 9px;}
+#header nav ul li a{font-size:13px;}
+.slider_text h3{font-size:58px;}
+.slider_text h6{font-size:16px;}
+.get_started a{padding:14px 19px;font-size:15px;}
+#services{padding:35px 0px;}
+.services_text h3{font-size:26px;}
+.services_text h4{font-size:60px;}
+.services_part_1 img{height:60px;}
+.services_part_1 h3{font-size:15px;}
+#newsletter h4{font-size:30px;}
+#newsletter p{font-size:16px;}
+.bigger{font-size:67px;}
+.phone_icon img{height:50px;}
+.phone h3 a{font-size:39px;}
+.phone h6{font-size:16px;}
+.form_1{width:100%;}
+input[type="submit"]{width:185px; height:55px;}
+.button{margin-top:20px;}
+.footer_nav ul li a{font-size:14px;}
+}
+
+
 
