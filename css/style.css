@@ -135,7 +135,17 @@ input[type="submit"]{width:263px; height:65px; text-align:center; background-col
 	float:left;
 	background-color:#161417;
 	padding:45px 0;
+	-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+
+transition: all 0.5s ease;
+position:fixed;
+top:-100%;
+z-index:999
 }
+.intro{top:0!important;}
 
 .container{
 	width:1170px;

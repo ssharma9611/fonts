@@ -46,7 +46,7 @@
 				and marketing provider.</h6>
 			</div> 
 			<div class="get_started">
-				<a href"#">get started</a>		
+				<a href="#" class="clicks">get started</a>		
 			</div>	
 		</div>
 	</div>
@@ -147,6 +147,13 @@ $(document).ready(function(){
     });
 	$(".mobile_nav > ul > li").click(function(){
         $(".mobile_nav").slideUp("slow");
+    });
+});
+</script>
+<script>
+$(document).ready(function(){
+    $(".clicks").click(function(){
+        $("#header").addClass("intro");
     });
 });
 </script>
